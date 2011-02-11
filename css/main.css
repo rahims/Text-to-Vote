@@ -1,0 +1,36 @@
+html {
+	background-color: #fdfdfd;
+}
+
+body {
+	font: 62.5% Helvetica, Arial, sans-serif;
+	color: #222;
+}
+
+#container {
+	width: 94em;
+	margin: 0 auto;
+	margin-top: 5em;
+}
+
+#results {
+	width: 94em;
+	height: 40em;
+}
+
+h1 {
+	font-size: 3.2em;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+p img {
+	margin-top: 0.5em;
+	font-size: 2.4em;
+	float: right;
+}
+
+strong {
+	font-weight: bold;
+	text-shadow: #bbb 0px 1px 3px;
+}

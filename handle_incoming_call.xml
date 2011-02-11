@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+	<Say voice="woman">Voting is powered by Twilio. Visit www.twilio.com for more information.</Say>
+</Response>
