@@ -7,7 +7,7 @@ SMS.
 Text-to-Vote works with the Twilio API, so you'll need an account and phone 
 number at Twilio before you can get started. Twilio sells simple, pay as you 
 go phone services, and you can sign up for a free account with $30 of free 
-credits at http://www.twilio.com.
+credits at [http://www.twilio.com](http://www.twilio.com).
 
 Installation
 ============
@@ -20,16 +20,16 @@ handlers.
 
 2. Make the folder writeable.
 
-3. Edit /include/config.php
+3. Edit `/include/config.php`
 
-4. Go to http://www.twilio.com and point the Voice URL to
-   http://[your server]/[path to Text-to-Vote]/handle_incoming_call.php
+4. Go to your [Twilio numbers page](https://www.twilio.com/user/account/phone-numbers/) 
+   and point the Voice URL to `http://yourserver/Text-to-Vote/handle_incoming_call.php`
    (leave the default POST method selected) and point the SMS URL to
-   http://[your server]/[path to Text-to-Vote]/handle_incoming_sms.php
+   `http://yourserver/Text-to-Vote/handle_incoming_sms.php`
 
 License
 =======
 
-Copyright (C) 2010 Rahim Sonawalla (rahim@twilio.com) and Will Light (will@twilio.com).
+Copyright (C) 2011 Rahim Sonawalla ([rahim@twilio.com](mailto:rahim@twilio.com) / [@rahims](http://twitter.com/rahims)) and Will Light ([will@twilio.com](mailto:will@twilio.com) / [@dudestache](http://twitter.com/dudestache)).
 
-Released under the MIT license (http://www.opensource.org/licenses/mit-license.php).
+Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
