@@ -32,6 +32,6 @@ Twilio to the correct handlers.
 License
 =======
 
-Copyright (C) 2011 Rahim Sonawalla ([rahim@twilio.com](mailto:rahim@twilio.com) / [@rahims](http://twitter.com/rahims)) and Will Light ([will@twilio.com](mailto:will@twilio.com) / [@dudestache](http://twitter.com/dudestache)).
+Copyright (C) 2011 Rahim Sonawalla ([rahim@twilio.com](mailto:rahim@twilio.com) / [@rahims](http://twitter.com/rahims)) and Will Light ([wrl@illest.net](mailto:wrl@illest.net) / [@dudestache](http://twitter.com/dudestache)).
 
 Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
