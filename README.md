@@ -13,8 +13,8 @@ Installation
 ============
 
 Installation of Text-to-Vote is as simple as copying the folder, making it 
-writeable, editing the configuration file, and pointing Twilio to the correct 
-handlers.
+writeable, editing the configuration file, creating the database and pointing 
+Twilio to the correct handlers.
 
 1. Copy the folder to your server.
 
@@ -22,7 +22,9 @@ handlers.
 
 3. Edit `/include/config.php`
 
-4. Go to your [Twilio numbers page](https://www.twilio.com/user/account/phone-numbers/) 
+4. Run `create_database.php` by browsing to `http://yourserver/Text-to-Vote/create_database.php`
+
+5. Go to your [Twilio numbers page](https://www.twilio.com/user/account/phone-numbers/) 
    and point the Voice URL to `http://yourserver/Text-to-Vote/handle_incoming_call.php`
    (leave the default POST method selected) and point the SMS URL to
    `http://yourserver/Text-to-Vote/handle_incoming_sms.php`

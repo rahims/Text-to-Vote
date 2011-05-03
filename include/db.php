@@ -6,17 +6,18 @@
 		protected $db;
 
 		function __construct() {
+			$this->db = new PDO('sqlite:'.self::DB_NAME);
+		}
+
+		function init() {
 			global $teams; // From config.php
 
-			if ($this->db = new PDO('sqlite:'.self::DB_NAME))
-			{
-				$this->db->exec('CREATE TABLE IF NOT EXISTS teams (id INTEGER PRIMARY KEY, name TEXT, votes INTEGER);');
-				$this->db->exec('CREATE TABLE IF NOT EXISTS voters (id INTEGER PRIMARY KEY, phone_number TEXT, voted_for INTEGER);');
+			$this->db->exec('CREATE TABLE IF NOT EXISTS teams (id INTEGER PRIMARY KEY, name TEXT, votes INTEGER);');
+			$this->db->exec('CREATE TABLE IF NOT EXISTS voters (id INTEGER PRIMARY KEY, phone_number TEXT, voted_for INTEGER);');
 
-				foreach ($teams as $team)
-				{
-					$this->add_team($team);
-				}
+			foreach ($teams as $team)
+			{
+				$this->add_team($team);
 			}
 		}
 
