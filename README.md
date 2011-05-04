@@ -25,7 +25,7 @@ Twilio to the correct handlers.
 4. Run `create_database.php` by browsing to `http://yourserver/Text-to-Vote/create_database.php`
 
 5. Go to your [Twilio numbers page](https://www.twilio.com/user/account/phone-numbers/) 
-   and point the Voice URL to `http://yourserver/Text-to-Vote/handle_incoming_call.php`
+   and point the Voice URL to `http://yourserver/Text-to-Vote/handle_incoming_call.xml`
    (leave the default POST method selected) and point the SMS URL to
    `http://yourserver/Text-to-Vote/handle_incoming_sms.php`
 
